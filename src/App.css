@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+/* 
+    font-family: 'Sarala', sans-serif;
+    font-family: 'Righteous', cursive;
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App{
   min-height: 100vh;
+  min-width: 100vw;
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+header{
+  min-width: 100vw;  
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8rem 36.8rem 1.8rem 36.8rem ;
+  align-items: center;
+  border-bottom: 0.4px solid #FFF2E7;
+}
+.header-logo{
+  width: 6.2rem;
+  height: 6.2rem;
+}
+.header-text{
+  display: flex;
+  font-family: 'Sarala', sans-serif;
+  color: #FFF;
+  font-size: 2.8rem;
+}
+.header-text>p{
+  margin-left: 3rem;
+}
+.line-bottom-header{
+  width: 20%;
+  border: 0.5px solid #FFF2E7;
+
+}
+.item-landing-page{
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem 36.8rem 9rem 36.8rem;
+  min-width: 100%;
+}
+.fix-visual-errors{
+  padding: 10rem 0 0 0;
+}
+.text-principal{
+  font-family: 'Righteous', cursive;
+  font-size: 6.4rem;
+  color: #FFF2E7;
+}
+.text-secondary{
+  font-family: 'Sarala', sans-serif;
+
+  font-size: 2.4rem;
+
+
+  color: #ECD6C4;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-add{
+  width: 18.5rem ;
+  height: 6.7rem;
+  background: #ECD6C4;
+
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  font-size: 24px;
+  font-family: 'Sarala', sans-serif;
+  color: #2F2325;
+}
+.details-bot{
+  min-width: 100vw;
+  margin-top: 7.4rem;
+  margin-bottom: 7.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 0.4px solid #FFF2E7;
+}
+.details-bot > .text-primary{
+
+  font-family: 'Righteous', cursive;
+  font-size: 2.4rem;
+  color: #FFF2E7;
+  margin-bottom: 3.1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.details-bot > .text-secondary{
+  font-family: 'Sarala', sans-serif;
+  color: #ECD6C4;
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+
+}
+
+.footer-balle{
+  margin-bottom: 5.5rem;
+  
 }
